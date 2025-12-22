@@ -19,6 +19,6 @@ steps:
       ]
 
 images:
-  - 'us-central1-docker.pkg.dev/nicoservertest/general-notifications/gral-notifications:$COMMIT_SHA'
+  - 'us-central1-docker.pkg.dev/nicoservertest/general-notifications/gral-notification:$COMMIT_SHA'
 
 
