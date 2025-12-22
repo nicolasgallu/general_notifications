@@ -15,6 +15,6 @@ def ds_credits(ds_api_key):
     data = resp.json()
     balance_info = data
     if balance_info:
-        return f"Deepseek_usd_left: {balance_info.get("balance_infos", [])[0].get("total_balance")} USD"
+        return f"Deepseek_usd_left: {balance_info.get('balance_infos', [])[0].get('total_balance')} USD"
     else:
         return None
